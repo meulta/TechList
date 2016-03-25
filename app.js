@@ -9,8 +9,8 @@ var routes = require('./routes/index');
 var users = require('./routes/users');
 
 
-var vorlon = require("vorlon-node-wrapper");
-vorlon.start("http://techlistvorlon.azurewebsites.net/", "default", false);
+//var vorlon = require("vorlon-node-wrapper");
+//vorlon.start("http://techlistvorlon.azurewebsites.net/", "default", false);
 
 var app = express();
 
